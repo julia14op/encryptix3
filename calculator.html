@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Scientific Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,9 +25,17 @@
             <button class="btn" onclick="appendCharacter('1')">1</button>
             <button class="btn" onclick="appendCharacter('2')">2</button>
             <button class="btn" onclick="appendCharacter('3')">3</button>
+            <button class="btn" onclick="appendCharacter('00')">00</button>
             <button class="btn equal" onclick="calculateResult()">=</button>
             <button class="btn zero" onclick="appendCharacter('0')">0</button>
             <button class="btn" onclick="appendCharacter('.')">.</button>
+            <button class="btn" onclick="appendCharacter('Math.sqrt(')">√</button>
+            <button class="btn" onclick="appendCharacter('**')">^</button>
+            <button class="btn" onclick="appendCharacter('Math.sin(')">sin</button>
+            <button class="btn" onclick="appendCharacter('Math.cos(')">cos</button>
+            <button class="btn" onclick="appendCharacter('Math.tan(')">tan</button>
+            <button class="btn" onclick="appendCharacter('Math.log(')">log</button>
+            <button class="btn" onclick="appendCharacter('Math.exp(')">exp</button>
         </div>
     </div>
     <script src="script.js"></script>
